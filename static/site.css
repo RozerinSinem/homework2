@@ -1,0 +1,88 @@
+.custom-navbar {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-brand {
+  padding: 20px 0; 
+}
+
+.navbar-logo {
+  display: inline-block;
+  margin-right: 20px; 
+  padding-right: 20px; 
+}
+
+.search-bar {
+  background-color: #ffffff; 
+  width: 450px;
+  margin-left: 60px;
+}
+
+.search-input {
+  width: 900px; 
+}
+
+.home-icon {
+  width: 120px; 
+  height: auto; 
+  margin-right: 10px;
+}
+  .bestseller-container,.advantageous-container {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 1200px;
+    height:600px;
+    margin: 0 auto;
+    background-color:#fdefd9; 
+    padding: 10px; 
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.product-box {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+    height: 460px;
+    width: 25%; 
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+
+
+
+.product-item {
+ 
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  height: 50px;
+}
+
+.product-info {
+    padding: 10px;
+    text-align:center;
+}
+
+#prevBtn, #nextBtn,#advantageousPrevBtn,#advantageousNextBtn {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    padding: 10px;
+    background-color: #ffedcf;
+    border-radius: 15px;
+}
+
+#prevBtn,#advantageousPrevBtn {
+    left: 0;
+}
+
+#nextBtn,#advantageousNextBtn  {
+    right: 0;
+}
